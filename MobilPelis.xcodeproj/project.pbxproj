@@ -1,0 +1,928 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DC13C7B27F776690017C4C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC13C7A27F776690017C4C4 /* AppDelegate.swift */; };
+		6DC13C7D27F776690017C4C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC13C7C27F776690017C4C4 /* SceneDelegate.swift */; };
+		6DC13C8427F7766A0017C4C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DC13C8327F7766A0017C4C4 /* Assets.xcassets */; };
+		6DC13C8727F7766A0017C4C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC13C8527F7766A0017C4C4 /* LaunchScreen.storyboard */; };
+		6DC13C9227F7766A0017C4C4 /* MobilPelisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC13C9127F7766A0017C4C4 /* MobilPelisTests.swift */; };
+		6DC13C9C27F7766A0017C4C4 /* MobilPelisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC13C9B27F7766A0017C4C4 /* MobilPelisUITests.swift */; };
+		6DC13C9E27F7766A0017C4C4 /* MobilPelisUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC13C9D27F7766A0017C4C4 /* MobilPelisUITestsLaunchTests.swift */; };
+		6DC13CB527F787EA0017C4C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC13C7A27F776690017C4C4 /* AppDelegate.swift */; };
+		6DC13CB627F787EA0017C4C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC13C7C27F776690017C4C4 /* SceneDelegate.swift */; };
+		6DC13CB827F787EA0017C4C4 /* Pods_MobilPelis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A6CC8B0D08BEC25FE216F5 /* Pods_MobilPelis.framework */; };
+		6DC13CBA27F787EA0017C4C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC13C8527F7766A0017C4C4 /* LaunchScreen.storyboard */; };
+		6DC13CBB27F787EA0017C4C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DC13C8327F7766A0017C4C4 /* Assets.xcassets */; };
+		6DC13CCC27F789430017C4C4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC13CCB27F789430017C4C4 /* LoginViewController.swift */; };
+		6DC13CCD27F789430017C4C4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC13CCB27F789430017C4C4 /* LoginViewController.swift */; };
+		6DC13CCF27F789560017C4C4 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC13CCE27F789560017C4C4 /* Login.storyboard */; };
+		6DC13CD027F789560017C4C4 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC13CCE27F789560017C4C4 /* Login.storyboard */; };
+		DDC0AB722CAD1BDCA0F1D54D /* Pods_MobilPelisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA89953288D4CC5F3A73873F /* Pods_MobilPelisTests.framework */; };
+		EE013A4DE5FBA797A34B3874 /* Pods_MobilPelis_MobilPelisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD8F30F9CA418704F436E24 /* Pods_MobilPelis_MobilPelisUITests.framework */; };
+		F563BFF0C617D05F3D07DC26 /* Pods_MobilPelis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A6CC8B0D08BEC25FE216F5 /* Pods_MobilPelis.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DC13C8E27F7766A0017C4C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DC13C6F27F776690017C4C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DC13C7627F776690017C4C4;
+			remoteInfo = MobilPelis;
+		};
+		6DC13C9827F7766A0017C4C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DC13C6F27F776690017C4C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DC13C7627F776690017C4C4;
+			remoteInfo = MobilPelis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CD8F30F9CA418704F436E24 /* Pods_MobilPelis_MobilPelisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobilPelis_MobilPelisUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54E90668E7E63132CEB78C34 /* Pods-MobilPelis-MobilPelisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilPelis-MobilPelisUITests.release.xcconfig"; path = "Target Support Files/Pods-MobilPelis-MobilPelisUITests/Pods-MobilPelis-MobilPelisUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6DC13C7727F776690017C4C4 /* MobilPelisProd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobilPelisProd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DC13C7A27F776690017C4C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6DC13C7C27F776690017C4C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6DC13C8327F7766A0017C4C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DC13C8627F7766A0017C4C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6DC13C8827F7766A0017C4C4 /* MobilPelisProd.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = MobilPelisProd.plist; path = MobilPelis/Application/MobilPelisProd.plist; sourceTree = SOURCE_ROOT; };
+		6DC13C8D27F7766A0017C4C4 /* MobilPelisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobilPelisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DC13C9127F7766A0017C4C4 /* MobilPelisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobilPelisTests.swift; sourceTree = "<group>"; };
+		6DC13C9727F7766A0017C4C4 /* MobilPelisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobilPelisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DC13C9B27F7766A0017C4C4 /* MobilPelisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobilPelisUITests.swift; sourceTree = "<group>"; };
+		6DC13C9D27F7766A0017C4C4 /* MobilPelisUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobilPelisUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6DC13CBF27F787EA0017C4C4 /* MobilPelisDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobilPelisDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DC13CC127F788300017C4C4 /* MobilPelisDev.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = MobilPelisDev.plist; path = MobilPelis/Application/MobilPelisDev.plist; sourceTree = SOURCE_ROOT; };
+		6DC13CCB27F789430017C4C4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6DC13CCE27F789560017C4C4 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		74CD0303B760F11C369695F3 /* Pods-MobilPelisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilPelisTests.release.xcconfig"; path = "Target Support Files/Pods-MobilPelisTests/Pods-MobilPelisTests.release.xcconfig"; sourceTree = "<group>"; };
+		89B80251ABFB353F903EC2EF /* Pods-MobilPelis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilPelis.release.xcconfig"; path = "Target Support Files/Pods-MobilPelis/Pods-MobilPelis.release.xcconfig"; sourceTree = "<group>"; };
+		911CC6FA20370EF14C228750 /* Pods-MobilPelisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilPelisTests.debug.xcconfig"; path = "Target Support Files/Pods-MobilPelisTests/Pods-MobilPelisTests.debug.xcconfig"; sourceTree = "<group>"; };
+		94FEA5605CBC4B3D0F7658FB /* Pods-MobilPelis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilPelis.debug.xcconfig"; path = "Target Support Files/Pods-MobilPelis/Pods-MobilPelis.debug.xcconfig"; sourceTree = "<group>"; };
+		D0E20901C06D961FD249997D /* Pods-MobilPelis-MobilPelisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilPelis-MobilPelisUITests.debug.xcconfig"; path = "Target Support Files/Pods-MobilPelis-MobilPelisUITests/Pods-MobilPelis-MobilPelisUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA89953288D4CC5F3A73873F /* Pods_MobilPelisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobilPelisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1A6CC8B0D08BEC25FE216F5 /* Pods_MobilPelis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobilPelis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DC13C7427F776690017C4C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F563BFF0C617D05F3D07DC26 /* Pods_MobilPelis.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC13C8A27F7766A0017C4C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC0AB722CAD1BDCA0F1D54D /* Pods_MobilPelisTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC13C9427F7766A0017C4C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE013A4DE5FBA797A34B3874 /* Pods_MobilPelis_MobilPelisUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC13CB727F787EA0017C4C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC13CB827F787EA0017C4C4 /* Pods_MobilPelis.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BCC9ED09BD6572C3A8906CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94FEA5605CBC4B3D0F7658FB /* Pods-MobilPelis.debug.xcconfig */,
+				89B80251ABFB353F903EC2EF /* Pods-MobilPelis.release.xcconfig */,
+				D0E20901C06D961FD249997D /* Pods-MobilPelis-MobilPelisUITests.debug.xcconfig */,
+				54E90668E7E63132CEB78C34 /* Pods-MobilPelis-MobilPelisUITests.release.xcconfig */,
+				911CC6FA20370EF14C228750 /* Pods-MobilPelisTests.debug.xcconfig */,
+				74CD0303B760F11C369695F3 /* Pods-MobilPelisTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6064656E84A338CA4AD3B2E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1A6CC8B0D08BEC25FE216F5 /* Pods_MobilPelis.framework */,
+				3CD8F30F9CA418704F436E24 /* Pods_MobilPelis_MobilPelisUITests.framework */,
+				DA89953288D4CC5F3A73873F /* Pods_MobilPelisTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6DC13C6E27F776690017C4C4 = {
+			isa = PBXGroup;
+			children = (
+				6DC13C7927F776690017C4C4 /* MobilPelis */,
+				6DC13C9027F7766A0017C4C4 /* MobilPelisTests */,
+				6DC13C9A27F7766A0017C4C4 /* MobilPelisUITests */,
+				6DC13C7827F776690017C4C4 /* Products */,
+				1BCC9ED09BD6572C3A8906CA /* Pods */,
+				6064656E84A338CA4AD3B2E9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6DC13C7827F776690017C4C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DC13C7727F776690017C4C4 /* MobilPelisProd.app */,
+				6DC13C8D27F7766A0017C4C4 /* MobilPelisTests.xctest */,
+				6DC13C9727F7766A0017C4C4 /* MobilPelisUITests.xctest */,
+				6DC13CBF27F787EA0017C4C4 /* MobilPelisDev.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DC13C7927F776690017C4C4 /* MobilPelis */ = {
+			isa = PBXGroup;
+			children = (
+				6DC13CAA27F777860017C4C4 /* Application */,
+				6DC13CAD27F777D60017C4C4 /* Common */,
+				6DC13CAB27F777940017C4C4 /* Resources */,
+				6DC13CB027F785680017C4C4 /* Model */,
+				6DC13CAC27F7779B0017C4C4 /* View */,
+				6DC13CAF27F785340017C4C4 /* ViewModel */,
+			);
+			path = MobilPelis;
+			sourceTree = "<group>";
+		};
+		6DC13C9027F7766A0017C4C4 /* MobilPelisTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DC13C9127F7766A0017C4C4 /* MobilPelisTests.swift */,
+			);
+			path = MobilPelisTests;
+			sourceTree = "<group>";
+		};
+		6DC13C9A27F7766A0017C4C4 /* MobilPelisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6DC13C9B27F7766A0017C4C4 /* MobilPelisUITests.swift */,
+				6DC13C9D27F7766A0017C4C4 /* MobilPelisUITestsLaunchTests.swift */,
+			);
+			path = MobilPelisUITests;
+			sourceTree = "<group>";
+		};
+		6DC13CAA27F777860017C4C4 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				6DC13C7A27F776690017C4C4 /* AppDelegate.swift */,
+				6DC13C7C27F776690017C4C4 /* SceneDelegate.swift */,
+				6DC13C8527F7766A0017C4C4 /* LaunchScreen.storyboard */,
+				6DC13C8827F7766A0017C4C4 /* MobilPelisProd.plist */,
+				6DC13CC127F788300017C4C4 /* MobilPelisDev.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		6DC13CAB27F777940017C4C4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6DC13C8327F7766A0017C4C4 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6DC13CAC27F7779B0017C4C4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6DC13CB127F787AD0017C4C4 /* Login */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6DC13CAD27F777D60017C4C4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		6DC13CAF27F785340017C4C4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6DC13CB027F785680017C4C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6DC13CB127F787AD0017C4C4 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6DC13CCB27F789430017C4C4 /* LoginViewController.swift */,
+				6DC13CCE27F789560017C4C4 /* Login.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DC13C7627F776690017C4C4 /* MobilPelisProd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DC13CA127F7766A0017C4C4 /* Build configuration list for PBXNativeTarget "MobilPelisProd" */;
+			buildPhases = (
+				BEDAEE5582B07D238E0D18D3 /* [CP] Check Pods Manifest.lock */,
+				6DC13C7327F776690017C4C4 /* Sources */,
+				6DC13C7427F776690017C4C4 /* Frameworks */,
+				6DC13C7527F776690017C4C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobilPelisProd;
+			productName = MobilPelis;
+			productReference = 6DC13C7727F776690017C4C4 /* MobilPelisProd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DC13C8C27F7766A0017C4C4 /* MobilPelisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DC13CA427F7766A0017C4C4 /* Build configuration list for PBXNativeTarget "MobilPelisTests" */;
+			buildPhases = (
+				934974A1815F91D0F8B8CC9F /* [CP] Check Pods Manifest.lock */,
+				6DC13C8927F7766A0017C4C4 /* Sources */,
+				6DC13C8A27F7766A0017C4C4 /* Frameworks */,
+				6DC13C8B27F7766A0017C4C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DC13C8F27F7766A0017C4C4 /* PBXTargetDependency */,
+			);
+			name = MobilPelisTests;
+			productName = MobilPelisTests;
+			productReference = 6DC13C8D27F7766A0017C4C4 /* MobilPelisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6DC13C9627F7766A0017C4C4 /* MobilPelisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DC13CA727F7766A0017C4C4 /* Build configuration list for PBXNativeTarget "MobilPelisUITests" */;
+			buildPhases = (
+				A0C87608ADB58FB541EE9CD7 /* [CP] Check Pods Manifest.lock */,
+				6DC13C9327F7766A0017C4C4 /* Sources */,
+				6DC13C9427F7766A0017C4C4 /* Frameworks */,
+				6DC13C9527F7766A0017C4C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DC13C9927F7766A0017C4C4 /* PBXTargetDependency */,
+			);
+			name = MobilPelisUITests;
+			productName = MobilPelisUITests;
+			productReference = 6DC13C9727F7766A0017C4C4 /* MobilPelisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		6DC13CB227F787EA0017C4C4 /* MobilPelisDev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DC13CBC27F787EA0017C4C4 /* Build configuration list for PBXNativeTarget "MobilPelisDev" */;
+			buildPhases = (
+				6DC13CB327F787EA0017C4C4 /* [CP] Check Pods Manifest.lock */,
+				6DC13CB427F787EA0017C4C4 /* Sources */,
+				6DC13CB727F787EA0017C4C4 /* Frameworks */,
+				6DC13CB927F787EA0017C4C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobilPelisDev;
+			productName = MobilPelis;
+			productReference = 6DC13CBF27F787EA0017C4C4 /* MobilPelisDev.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DC13C6F27F776690017C4C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					6DC13C7627F776690017C4C4 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					6DC13C8C27F7766A0017C4C4 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 6DC13C7627F776690017C4C4;
+					};
+					6DC13C9627F7766A0017C4C4 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 6DC13C7627F776690017C4C4;
+					};
+				};
+			};
+			buildConfigurationList = 6DC13C7227F776690017C4C4 /* Build configuration list for PBXProject "MobilPelis" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DC13C6E27F776690017C4C4;
+			productRefGroup = 6DC13C7827F776690017C4C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DC13C7627F776690017C4C4 /* MobilPelisProd */,
+				6DC13C8C27F7766A0017C4C4 /* MobilPelisTests */,
+				6DC13C9627F7766A0017C4C4 /* MobilPelisUITests */,
+				6DC13CB227F787EA0017C4C4 /* MobilPelisDev */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DC13C7527F776690017C4C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC13C8727F7766A0017C4C4 /* LaunchScreen.storyboard in Resources */,
+				6DC13C8427F7766A0017C4C4 /* Assets.xcassets in Resources */,
+				6DC13CCF27F789560017C4C4 /* Login.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC13C8B27F7766A0017C4C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC13C9527F7766A0017C4C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC13CB927F787EA0017C4C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC13CBA27F787EA0017C4C4 /* LaunchScreen.storyboard in Resources */,
+				6DC13CBB27F787EA0017C4C4 /* Assets.xcassets in Resources */,
+				6DC13CD027F789560017C4C4 /* Login.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6DC13CB327F787EA0017C4C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobilPelis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		934974A1815F91D0F8B8CC9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobilPelisTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0C87608ADB58FB541EE9CD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobilPelis-MobilPelisUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEDAEE5582B07D238E0D18D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobilPelis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DC13C7327F776690017C4C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC13CCC27F789430017C4C4 /* LoginViewController.swift in Sources */,
+				6DC13C7B27F776690017C4C4 /* AppDelegate.swift in Sources */,
+				6DC13C7D27F776690017C4C4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC13C8927F7766A0017C4C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC13C9227F7766A0017C4C4 /* MobilPelisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC13C9327F7766A0017C4C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC13C9E27F7766A0017C4C4 /* MobilPelisUITestsLaunchTests.swift in Sources */,
+				6DC13C9C27F7766A0017C4C4 /* MobilPelisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC13CB427F787EA0017C4C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC13CCD27F789430017C4C4 /* LoginViewController.swift in Sources */,
+				6DC13CB527F787EA0017C4C4 /* AppDelegate.swift in Sources */,
+				6DC13CB627F787EA0017C4C4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DC13C8F27F7766A0017C4C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DC13C7627F776690017C4C4 /* MobilPelisProd */;
+			targetProxy = 6DC13C8E27F7766A0017C4C4 /* PBXContainerItemProxy */;
+		};
+		6DC13C9927F7766A0017C4C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DC13C7627F776690017C4C4 /* MobilPelisProd */;
+			targetProxy = 6DC13C9827F7766A0017C4C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6DC13C8527F7766A0017C4C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DC13C8627F7766A0017C4C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DC13C9F27F7766A0017C4C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6DC13CA027F7766A0017C4C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DC13CA227F7766A0017C4C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94FEA5605CBC4B3D0F7658FB /* Pods-MobilPelis.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z84GQ55RVN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MobilPelis/Application/MobilPelisProd.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Login;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zoluxiones.desafio.MobilPelis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6DC13CA327F7766A0017C4C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89B80251ABFB353F903EC2EF /* Pods-MobilPelis.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z84GQ55RVN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MobilPelis/Application/MobilPelisProd.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Login;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zoluxiones.desafio.MobilPelis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6DC13CA527F7766A0017C4C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 911CC6FA20370EF14C228750 /* Pods-MobilPelisTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z84GQ55RVN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zoluxiones.desafio.MobilPelisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobilPelis.app/MobilPelis";
+			};
+			name = Debug;
+		};
+		6DC13CA627F7766A0017C4C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74CD0303B760F11C369695F3 /* Pods-MobilPelisTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z84GQ55RVN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zoluxiones.desafio.MobilPelisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobilPelis.app/MobilPelis";
+			};
+			name = Release;
+		};
+		6DC13CA827F7766A0017C4C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0E20901C06D961FD249997D /* Pods-MobilPelis-MobilPelisUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z84GQ55RVN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zoluxiones.desafio.MobilPelisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MobilPelis;
+			};
+			name = Debug;
+		};
+		6DC13CA927F7766A0017C4C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54E90668E7E63132CEB78C34 /* Pods-MobilPelis-MobilPelisUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z84GQ55RVN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zoluxiones.desafio.MobilPelisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MobilPelis;
+			};
+			name = Release;
+		};
+		6DC13CBD27F787EA0017C4C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94FEA5605CBC4B3D0F7658FB /* Pods-MobilPelis.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z84GQ55RVN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MobilPelis/Application/MobilPelisDev.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Login;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zoluxiones.desafio.MobilPelis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6DC13CBE27F787EA0017C4C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89B80251ABFB353F903EC2EF /* Pods-MobilPelis.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z84GQ55RVN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MobilPelis/Application/MobilPelisDev.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Login;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zoluxiones.desafio.MobilPelis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DC13C7227F776690017C4C4 /* Build configuration list for PBXProject "MobilPelis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC13C9F27F7766A0017C4C4 /* Debug */,
+				6DC13CA027F7766A0017C4C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DC13CA127F7766A0017C4C4 /* Build configuration list for PBXNativeTarget "MobilPelisProd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC13CA227F7766A0017C4C4 /* Debug */,
+				6DC13CA327F7766A0017C4C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DC13CA427F7766A0017C4C4 /* Build configuration list for PBXNativeTarget "MobilPelisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC13CA527F7766A0017C4C4 /* Debug */,
+				6DC13CA627F7766A0017C4C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DC13CA727F7766A0017C4C4 /* Build configuration list for PBXNativeTarget "MobilPelisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC13CA827F7766A0017C4C4 /* Debug */,
+				6DC13CA927F7766A0017C4C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DC13CBC27F787EA0017C4C4 /* Build configuration list for PBXNativeTarget "MobilPelisDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC13CBD27F787EA0017C4C4 /* Debug */,
+				6DC13CBE27F787EA0017C4C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DC13C6F27F776690017C4C4 /* Project object */;
+}
