@@ -17,29 +17,68 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOLA MUNDO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oDF-UO-iSS">
-                                <rect key="frame" x="150.5" y="437.5" width="113" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="uaH-i4-ACp">
+                                <rect key="frame" x="57" y="361" width="300" height="174"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="olW-Ro-dGE">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="olW-Ro-dGE" secondAttribute="height" multiplier="6:1" id="u5J-5c-g8G"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zJI-pa-XCp">
+                                        <rect key="frame" x="0.0" y="62" width="300" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="zJI-pa-XCp" secondAttribute="height" multiplier="6:1" id="W3P-HE-OSr"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BMZ-Yz-IKJ">
+                                        <rect key="frame" x="0.0" y="124" width="300" height="50"/>
+                                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="BMZ-Yz-IKJ" secondAttribute="height" multiplier="6:1" id="KNU-Sm-RBm"/>
+                                        </constraints>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Login"/>
+                                        <connections>
+                                            <action selector="loginAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="COd-if-GnZ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="oDF-UO-iSS" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="gFW-HE-gMg"/>
-                            <constraint firstItem="oDF-UO-iSS" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="n5K-kl-NmP"/>
+                            <constraint firstItem="BMZ-Yz-IKJ" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.724638" id="E9k-5A-Nz8"/>
+                            <constraint firstItem="uaH-i4-ACp" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="Qxb-fZ-k48"/>
+                            <constraint firstItem="uaH-i4-ACp" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="TVi-Hq-WAz"/>
+                            <constraint firstItem="olW-Ro-dGE" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.724638" id="fYV-GH-49N"/>
+                            <constraint firstItem="zJI-pa-XCp" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.724638" id="gub-xW-ag0"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="LoginButton" destination="BMZ-Yz-IKJ" id="Kaf-Xi-8Cy"/>
+                        <outlet property="passwordTextField" destination="zJI-pa-XCp" id="SwW-Ot-o5I"/>
+                        <outlet property="usernameTextField" destination="olW-Ro-dGE" id="i1e-7e-gHy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20" y="98"/>
+            <point key="canvasLocation" x="18.840579710144929" y="97.767857142857139"/>
         </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
