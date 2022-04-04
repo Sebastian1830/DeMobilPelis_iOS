@@ -8,20 +8,20 @@
 import Foundation
 
 struct MovieModel: Codable {
-    var poster_path: String?
-    var adult: Bool
-    var overview: String
-    var release_date: String
-    var genre_ids: [Int]
-    var id: Int
-    var original_title: String
-    var original_language: String
-    var title: String
-    var backdrop_path: String?
-    var popularity: Double
-    var vote_count: Int
-    var video: Bool
-    var vote_average: Double
+    var poster_path: String? = ""
+    var adult: Bool = false
+    var overview: String = ""
+    var release_date: String = ""
+    var genre_ids: [Int] = [Int]()
+    var id: Int = 0
+    var original_title: String = ""
+    var original_language: String = ""
+    var title: String = ""
+    var backdrop_path: String? = ""
+    var popularity: Double = 0.0
+    var vote_count: Int = 1
+    var video: Bool = false
+    var vote_average: Double = 0.0
 }
 
 struct Dates: Codable {
