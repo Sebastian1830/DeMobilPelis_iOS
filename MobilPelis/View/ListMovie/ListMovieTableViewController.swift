@@ -11,6 +11,7 @@ import SVProgressHUD
 class ListMovieTableViewController: UITableViewController {
     
     private let cellId = "MovieTableViewCell"
+    private let detailId = "DetailMovieViewController"
     private var listMovieVM: ListMovieViewModel?
     private var page = 1
     private var dataSourceMovies = [MovieModel]()
@@ -21,15 +22,18 @@ class ListMovieTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.refreshControl = UIRefreshControl()
-        self.refreshControl?.addTarget(self, action: #selector(refreshData), for: .valueChanged)
-        setupUI()
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        
+        self.refreshControl = UIRefreshControl()
+        self.refreshControl?.addTarget(self, action: #selector(refreshData), for: .valueChanged)
+        
+        setupUI()
+        getMovies(page: 1, refresh: false)
     }
     
     @objc
@@ -37,11 +41,7 @@ class ListMovieTableViewController: UITableViewController {
         self.dataSourceMovies.removeAll()
         getMovies(page: 1, refresh: true)
     }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        getMovies(page: 1, refresh: false)
-    }
+
     
     private func getMovies(page: Int, refresh: Bool = false) {
         if refresh { refreshControl?.beginRefreshing() } else { SVProgressHUD.show() }
@@ -87,6 +87,13 @@ class ListMovieTableViewController: UITableViewController {
         if currentPage < totalPage && indexPath.row == dataSourceMovies.count - 1 {
             currentPage += 1
             getMovies(page: currentPage, refresh: true)
+        }
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let detail = storyboard?.instantiateViewController(withIdentifier: detailId) as? DetailMovieViewController {
+            detail.movie = dataSourceMovies[indexPath.row]
+            self.navigationController?.pushViewController(detail, animated: true)
         }
     }
 
