@@ -7,12 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26117C9029578E7E3474AD80 /* Pods_MobilPelisProd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 164DC8586A4976A83D8AC3BC /* Pods_MobilPelisProd.framework */; };
+		2FCBA293058CA94A08D23CDD /* Pods_MobilPelisDev_MobilPelisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E362533E53DC0ACC23EDCE8 /* Pods_MobilPelisDev_MobilPelisUITests.framework */; };
 		6D33124727F821E200294D48 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D33124627F821E200294D48 /* UserModel.swift */; };
 		6D33124827F821E200294D48 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D33124627F821E200294D48 /* UserModel.swift */; };
 		6D33124A27F8AB8900294D48 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D33124927F8AB8900294D48 /* LoginViewModel.swift */; };
 		6D33124B27F8AB8900294D48 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D33124927F8AB8900294D48 /* LoginViewModel.swift */; };
 		6D33124F27F8B69300294D48 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D33124E27F8B69300294D48 /* UIViewController.swift */; };
 		6D33125027F8B69300294D48 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D33124E27F8B69300294D48 /* UIViewController.swift */; };
+		6D33125627F9276A00294D48 /* ListMovie.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D33125527F9276A00294D48 /* ListMovie.storyboard */; };
+		6D33125727F9276A00294D48 /* ListMovie.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D33125527F9276A00294D48 /* ListMovie.storyboard */; };
+		6D33125B27F95BDD00294D48 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D33125A27F95BDD00294D48 /* Endpoint.swift */; };
+		6D33125C27F95BDD00294D48 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D33125A27F95BDD00294D48 /* Endpoint.swift */; };
+		6D33125E27F95C2F00294D48 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D33125D27F95C2F00294D48 /* Services.swift */; };
+		6D33125F27F95C2F00294D48 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D33125D27F95C2F00294D48 /* Services.swift */; };
+		6D33126227F95EA500294D48 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D33126127F95EA500294D48 /* MovieModel.swift */; };
+		6D33126327F95EA500294D48 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D33126127F95EA500294D48 /* MovieModel.swift */; };
+		6D33126627F9F3A100294D48 /* ListMovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D33126527F9F3A100294D48 /* ListMovieViewModel.swift */; };
+		6D33126727F9F3A100294D48 /* ListMovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D33126527F9F3A100294D48 /* ListMovieViewModel.swift */; };
+		6D33126927FA23E400294D48 /* ListMovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D33126827FA23E400294D48 /* ListMovieTableViewController.swift */; };
+		6D33126A27FA23E400294D48 /* ListMovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D33126827FA23E400294D48 /* ListMovieTableViewController.swift */; };
+		6D33126E27FA3E8800294D48 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D33126C27FA3E8800294D48 /* MovieTableViewCell.swift */; };
+		6D33126F27FA3E8800294D48 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D33126C27FA3E8800294D48 /* MovieTableViewCell.swift */; };
+		6D33127027FA3E8800294D48 /* MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D33126D27FA3E8800294D48 /* MovieTableViewCell.xib */; };
+		6D33127127FA3E8800294D48 /* MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D33126D27FA3E8800294D48 /* MovieTableViewCell.xib */; };
 		6DC13C7B27F776690017C4C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC13C7A27F776690017C4C4 /* AppDelegate.swift */; };
 		6DC13C7D27F776690017C4C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC13C7C27F776690017C4C4 /* SceneDelegate.swift */; };
 		6DC13C8427F7766A0017C4C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DC13C8327F7766A0017C4C4 /* Assets.xcassets */; };
@@ -22,16 +40,14 @@
 		6DC13C9E27F7766A0017C4C4 /* MobilPelisUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC13C9D27F7766A0017C4C4 /* MobilPelisUITestsLaunchTests.swift */; };
 		6DC13CB527F787EA0017C4C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC13C7A27F776690017C4C4 /* AppDelegate.swift */; };
 		6DC13CB627F787EA0017C4C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC13C7C27F776690017C4C4 /* SceneDelegate.swift */; };
-		6DC13CB827F787EA0017C4C4 /* Pods_MobilPelis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A6CC8B0D08BEC25FE216F5 /* Pods_MobilPelis.framework */; };
 		6DC13CBA27F787EA0017C4C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC13C8527F7766A0017C4C4 /* LaunchScreen.storyboard */; };
 		6DC13CBB27F787EA0017C4C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DC13C8327F7766A0017C4C4 /* Assets.xcassets */; };
 		6DC13CCC27F789430017C4C4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC13CCB27F789430017C4C4 /* LoginViewController.swift */; };
 		6DC13CCD27F789430017C4C4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC13CCB27F789430017C4C4 /* LoginViewController.swift */; };
 		6DC13CCF27F789560017C4C4 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC13CCE27F789560017C4C4 /* Login.storyboard */; };
 		6DC13CD027F789560017C4C4 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC13CCE27F789560017C4C4 /* Login.storyboard */; };
-		DDC0AB722CAD1BDCA0F1D54D /* Pods_MobilPelisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA89953288D4CC5F3A73873F /* Pods_MobilPelisTests.framework */; };
-		EE013A4DE5FBA797A34B3874 /* Pods_MobilPelis_MobilPelisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD8F30F9CA418704F436E24 /* Pods_MobilPelis_MobilPelisUITests.framework */; };
-		F563BFF0C617D05F3D07DC26 /* Pods_MobilPelis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A6CC8B0D08BEC25FE216F5 /* Pods_MobilPelis.framework */; };
+		A62C8409635B7D119E5C0333 /* Pods_MobilPelisDev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A18C53B8E3CBE7EE2D814B /* Pods_MobilPelisDev.framework */; };
+		B3D6C12619C9412A682B2617 /* Pods_MobilPelisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E180AFDF228A0190F01D6D1 /* Pods_MobilPelisTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,11 +82,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3CD8F30F9CA418704F436E24 /* Pods_MobilPelis_MobilPelisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobilPelis_MobilPelisUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		54E90668E7E63132CEB78C34 /* Pods-MobilPelis-MobilPelisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilPelis-MobilPelisUITests.release.xcconfig"; path = "Target Support Files/Pods-MobilPelis-MobilPelisUITests/Pods-MobilPelis-MobilPelisUITests.release.xcconfig"; sourceTree = "<group>"; };
+		164DC8586A4976A83D8AC3BC /* Pods_MobilPelisProd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobilPelisProd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EAFEB15B3882777D941AB4D /* Pods-MobilPelisProd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilPelisProd.release.xcconfig"; path = "Target Support Files/Pods-MobilPelisProd/Pods-MobilPelisProd.release.xcconfig"; sourceTree = "<group>"; };
+		58A18C53B8E3CBE7EE2D814B /* Pods_MobilPelisDev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobilPelisDev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E180AFDF228A0190F01D6D1 /* Pods_MobilPelisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobilPelisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D33124627F821E200294D48 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		6D33124927F8AB8900294D48 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		6D33124E27F8B69300294D48 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		6D33125527F9276A00294D48 /* ListMovie.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ListMovie.storyboard; sourceTree = "<group>"; };
+		6D33125A27F95BDD00294D48 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		6D33125D27F95C2F00294D48 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		6D33126127F95EA500294D48 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		6D33126527F9F3A100294D48 /* ListMovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMovieViewModel.swift; sourceTree = "<group>"; };
+		6D33126827FA23E400294D48 /* ListMovieTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMovieTableViewController.swift; sourceTree = "<group>"; };
+		6D33126C27FA3E8800294D48 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		6D33126D27FA3E8800294D48 /* MovieTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieTableViewCell.xib; sourceTree = "<group>"; };
 		6DC13C7727F776690017C4C4 /* MobilPelisProd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobilPelisProd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DC13C7A27F776690017C4C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DC13C7C27F776690017C4C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,13 +112,14 @@
 		6DC13CC127F788300017C4C4 /* MobilPelisDev.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = MobilPelisDev.plist; path = MobilPelis/Application/MobilPelisDev.plist; sourceTree = SOURCE_ROOT; };
 		6DC13CCB27F789430017C4C4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		6DC13CCE27F789560017C4C4 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
-		74CD0303B760F11C369695F3 /* Pods-MobilPelisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilPelisTests.release.xcconfig"; path = "Target Support Files/Pods-MobilPelisTests/Pods-MobilPelisTests.release.xcconfig"; sourceTree = "<group>"; };
-		89B80251ABFB353F903EC2EF /* Pods-MobilPelis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilPelis.release.xcconfig"; path = "Target Support Files/Pods-MobilPelis/Pods-MobilPelis.release.xcconfig"; sourceTree = "<group>"; };
-		911CC6FA20370EF14C228750 /* Pods-MobilPelisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilPelisTests.debug.xcconfig"; path = "Target Support Files/Pods-MobilPelisTests/Pods-MobilPelisTests.debug.xcconfig"; sourceTree = "<group>"; };
-		94FEA5605CBC4B3D0F7658FB /* Pods-MobilPelis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilPelis.debug.xcconfig"; path = "Target Support Files/Pods-MobilPelis/Pods-MobilPelis.debug.xcconfig"; sourceTree = "<group>"; };
-		D0E20901C06D961FD249997D /* Pods-MobilPelis-MobilPelisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilPelis-MobilPelisUITests.debug.xcconfig"; path = "Target Support Files/Pods-MobilPelis-MobilPelisUITests/Pods-MobilPelis-MobilPelisUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		DA89953288D4CC5F3A73873F /* Pods_MobilPelisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobilPelisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1A6CC8B0D08BEC25FE216F5 /* Pods_MobilPelis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobilPelis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E29562084CF5C9D7D26279 /* Pods-MobilPelisProd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilPelisProd.debug.xcconfig"; path = "Target Support Files/Pods-MobilPelisProd/Pods-MobilPelisProd.debug.xcconfig"; sourceTree = "<group>"; };
+		7E362533E53DC0ACC23EDCE8 /* Pods_MobilPelisDev_MobilPelisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobilPelisDev_MobilPelisUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDAAD4E7B7216461D6C7593A /* Pods-MobilPelisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilPelisTests.release.xcconfig"; path = "Target Support Files/Pods-MobilPelisTests/Pods-MobilPelisTests.release.xcconfig"; sourceTree = "<group>"; };
+		C28B1722E67972A341F7CF7B /* Pods-MobilPelisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilPelisTests.debug.xcconfig"; path = "Target Support Files/Pods-MobilPelisTests/Pods-MobilPelisTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C3082EC2343FC7291B2881DE /* Pods-MobilPelisDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilPelisDev.debug.xcconfig"; path = "Target Support Files/Pods-MobilPelisDev/Pods-MobilPelisDev.debug.xcconfig"; sourceTree = "<group>"; };
+		F5159AE5F5FF29DA1F1993E6 /* Pods-MobilPelisDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilPelisDev.release.xcconfig"; path = "Target Support Files/Pods-MobilPelisDev/Pods-MobilPelisDev.release.xcconfig"; sourceTree = "<group>"; };
+		F61A8ED1A523E74D59AF29FC /* Pods-MobilPelisDev-MobilPelisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilPelisDev-MobilPelisUITests.debug.xcconfig"; path = "Target Support Files/Pods-MobilPelisDev-MobilPelisUITests/Pods-MobilPelisDev-MobilPelisUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFD6298415D04B7167ECC4B4 /* Pods-MobilPelisDev-MobilPelisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilPelisDev-MobilPelisUITests.release.xcconfig"; path = "Target Support Files/Pods-MobilPelisDev-MobilPelisUITests/Pods-MobilPelisDev-MobilPelisUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F563BFF0C617D05F3D07DC26 /* Pods_MobilPelis.framework in Frameworks */,
+				26117C9029578E7E3474AD80 /* Pods_MobilPelisProd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,7 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDC0AB722CAD1BDCA0F1D54D /* Pods_MobilPelisTests.framework in Frameworks */,
+				B3D6C12619C9412A682B2617 /* Pods_MobilPelisTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,7 +143,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE013A4DE5FBA797A34B3874 /* Pods_MobilPelis_MobilPelisUITests.framework in Frameworks */,
+				2FCBA293058CA94A08D23CDD /* Pods_MobilPelisDev_MobilPelisUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,7 +151,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DC13CB827F787EA0017C4C4 /* Pods_MobilPelis.framework in Frameworks */,
+				A62C8409635B7D119E5C0333 /* Pods_MobilPelisDev.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,12 +161,14 @@
 		1BCC9ED09BD6572C3A8906CA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				94FEA5605CBC4B3D0F7658FB /* Pods-MobilPelis.debug.xcconfig */,
-				89B80251ABFB353F903EC2EF /* Pods-MobilPelis.release.xcconfig */,
-				D0E20901C06D961FD249997D /* Pods-MobilPelis-MobilPelisUITests.debug.xcconfig */,
-				54E90668E7E63132CEB78C34 /* Pods-MobilPelis-MobilPelisUITests.release.xcconfig */,
-				911CC6FA20370EF14C228750 /* Pods-MobilPelisTests.debug.xcconfig */,
-				74CD0303B760F11C369695F3 /* Pods-MobilPelisTests.release.xcconfig */,
+				79E29562084CF5C9D7D26279 /* Pods-MobilPelisProd.debug.xcconfig */,
+				3EAFEB15B3882777D941AB4D /* Pods-MobilPelisProd.release.xcconfig */,
+				C3082EC2343FC7291B2881DE /* Pods-MobilPelisDev.debug.xcconfig */,
+				F5159AE5F5FF29DA1F1993E6 /* Pods-MobilPelisDev.release.xcconfig */,
+				F61A8ED1A523E74D59AF29FC /* Pods-MobilPelisDev-MobilPelisUITests.debug.xcconfig */,
+				FFD6298415D04B7167ECC4B4 /* Pods-MobilPelisDev-MobilPelisUITests.release.xcconfig */,
+				C28B1722E67972A341F7CF7B /* Pods-MobilPelisTests.debug.xcconfig */,
+				BDAAD4E7B7216461D6C7593A /* Pods-MobilPelisTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -147,9 +176,10 @@
 		6064656E84A338CA4AD3B2E9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E1A6CC8B0D08BEC25FE216F5 /* Pods_MobilPelis.framework */,
-				3CD8F30F9CA418704F436E24 /* Pods_MobilPelis_MobilPelisUITests.framework */,
-				DA89953288D4CC5F3A73873F /* Pods_MobilPelisTests.framework */,
+				164DC8586A4976A83D8AC3BC /* Pods_MobilPelisProd.framework */,
+				58A18C53B8E3CBE7EE2D814B /* Pods_MobilPelisDev.framework */,
+				7E362533E53DC0ACC23EDCE8 /* Pods_MobilPelisDev_MobilPelisUITests.framework */,
+				5E180AFDF228A0190F01D6D1 /* Pods_MobilPelisTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -168,6 +198,42 @@
 				6D33124E27F8B69300294D48 /* UIViewController.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6D33125127F9273000294D48 /* ListMovie */ = {
+			isa = PBXGroup;
+			children = (
+				6D33126B27FA3E5400294D48 /* Cell */,
+				6D33125527F9276A00294D48 /* ListMovie.storyboard */,
+				6D33126827FA23E400294D48 /* ListMovieTableViewController.swift */,
+			);
+			path = ListMovie;
+			sourceTree = "<group>";
+		};
+		6D33125827F95B7500294D48 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6D33125A27F95BDD00294D48 /* Endpoint.swift */,
+				6D33125D27F95C2F00294D48 /* Services.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		6D33126427F9F37200294D48 /* ListMovie */ = {
+			isa = PBXGroup;
+			children = (
+				6D33126527F9F3A100294D48 /* ListMovieViewModel.swift */,
+			);
+			path = ListMovie;
+			sourceTree = "<group>";
+		};
+		6D33126B27FA3E5400294D48 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6D33126C27FA3E8800294D48 /* MovieTableViewCell.swift */,
+				6D33126D27FA3E8800294D48 /* MovieTableViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		6DC13C6E27F776690017C4C4 = {
@@ -246,6 +312,7 @@
 		6DC13CAC27F7779B0017C4C4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6D33125127F9273000294D48 /* ListMovie */,
 				6DC13CB127F787AD0017C4C4 /* Login */,
 			);
 			path = View;
@@ -254,6 +321,7 @@
 		6DC13CAD27F777D60017C4C4 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				6D33125827F95B7500294D48 /* Network */,
 				6D33124D27F8B67900294D48 /* Extensions */,
 			);
 			path = Common;
@@ -262,6 +330,7 @@
 		6DC13CAF27F785340017C4C4 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				6D33126427F9F37200294D48 /* ListMovie */,
 				6D33124C27F8AB9000294D48 /* Login */,
 			);
 			path = ViewModel;
@@ -271,6 +340,7 @@
 			isa = PBXGroup;
 			children = (
 				6D33124627F821E200294D48 /* UserModel.swift */,
+				6D33126127F95EA500294D48 /* MovieModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -295,6 +365,7 @@
 				6DC13C7327F776690017C4C4 /* Sources */,
 				6DC13C7427F776690017C4C4 /* Frameworks */,
 				6DC13C7527F776690017C4C4 /* Resources */,
+				22A05199A254EFBF721A5A1A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -309,7 +380,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DC13CA427F7766A0017C4C4 /* Build configuration list for PBXNativeTarget "MobilPelisTests" */;
 			buildPhases = (
-				934974A1815F91D0F8B8CC9F /* [CP] Check Pods Manifest.lock */,
+				4394AD5073B1F6FFF8FE8A34 /* [CP] Check Pods Manifest.lock */,
 				6DC13C8927F7766A0017C4C4 /* Sources */,
 				6DC13C8A27F7766A0017C4C4 /* Frameworks */,
 				6DC13C8B27F7766A0017C4C4 /* Resources */,
@@ -329,10 +400,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DC13CA727F7766A0017C4C4 /* Build configuration list for PBXNativeTarget "MobilPelisUITests" */;
 			buildPhases = (
-				A0C87608ADB58FB541EE9CD7 /* [CP] Check Pods Manifest.lock */,
+				94C3383D06DE53E60B4F5AA1 /* [CP] Check Pods Manifest.lock */,
 				6DC13C9327F7766A0017C4C4 /* Sources */,
 				6DC13C9427F7766A0017C4C4 /* Frameworks */,
 				6DC13C9527F7766A0017C4C4 /* Resources */,
+				F0DF84D19DFE9422641F2F1A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -349,10 +421,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DC13CBC27F787EA0017C4C4 /* Build configuration list for PBXNativeTarget "MobilPelisDev" */;
 			buildPhases = (
-				6DC13CB327F787EA0017C4C4 /* [CP] Check Pods Manifest.lock */,
+				D5281FCEDEA9B6675853D1E2 /* [CP] Check Pods Manifest.lock */,
 				6DC13CB427F787EA0017C4C4 /* Sources */,
 				6DC13CB727F787EA0017C4C4 /* Frameworks */,
 				6DC13CB927F787EA0017C4C4 /* Resources */,
+				1D4092158A5EBD4292B2FFBA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -413,8 +486,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DC13C8727F7766A0017C4C4 /* LaunchScreen.storyboard in Resources */,
+				6D33127027FA3E8800294D48 /* MovieTableViewCell.xib in Resources */,
 				6DC13C8427F7766A0017C4C4 /* Assets.xcassets in Resources */,
 				6DC13CCF27F789560017C4C4 /* Login.storyboard in Resources */,
+				6D33125627F9276A00294D48 /* ListMovie.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,37 +512,51 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DC13CBA27F787EA0017C4C4 /* LaunchScreen.storyboard in Resources */,
+				6D33127127FA3E8800294D48 /* MovieTableViewCell.xib in Resources */,
 				6DC13CBB27F787EA0017C4C4 /* Assets.xcassets in Resources */,
 				6DC13CD027F789560017C4C4 /* Login.storyboard in Resources */,
+				6D33125727F9276A00294D48 /* ListMovie.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6DC13CB327F787EA0017C4C4 /* [CP] Check Pods Manifest.lock */ = {
+		1D4092158A5EBD4292B2FFBA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobilPelisDev/Pods-MobilPelisDev-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MobilPelis-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-MobilPelisDev/Pods-MobilPelisDev-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobilPelisDev/Pods-MobilPelisDev-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		934974A1815F91D0F8B8CC9F /* [CP] Check Pods Manifest.lock */ = {
+		22A05199A254EFBF721A5A1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobilPelisProd/Pods-MobilPelisProd-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobilPelisProd/Pods-MobilPelisProd-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobilPelisProd/Pods-MobilPelisProd-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4394AD5073B1F6FFF8FE8A34 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -489,7 +578,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A0C87608ADB58FB541EE9CD7 /* [CP] Check Pods Manifest.lock */ = {
+		94C3383D06DE53E60B4F5AA1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -504,7 +593,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MobilPelis-MobilPelisUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MobilPelisDev-MobilPelisUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -526,11 +615,50 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MobilPelis-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MobilPelisProd-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5281FCEDEA9B6675853D1E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobilPelisDev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0DF84D19DFE9422641F2F1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobilPelisDev-MobilPelisUITests/Pods-MobilPelisDev-MobilPelisUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobilPelisDev-MobilPelisUITests/Pods-MobilPelisDev-MobilPelisUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobilPelisDev-MobilPelisUITests/Pods-MobilPelisDev-MobilPelisUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -542,10 +670,16 @@
 			files = (
 				6DC13CCC27F789430017C4C4 /* LoginViewController.swift in Sources */,
 				6DC13C7B27F776690017C4C4 /* AppDelegate.swift in Sources */,
+				6D33126E27FA3E8800294D48 /* MovieTableViewCell.swift in Sources */,
+				6D33126227F95EA500294D48 /* MovieModel.swift in Sources */,
+				6D33125B27F95BDD00294D48 /* Endpoint.swift in Sources */,
+				6D33126927FA23E400294D48 /* ListMovieTableViewController.swift in Sources */,
 				6D33124F27F8B69300294D48 /* UIViewController.swift in Sources */,
 				6D33124727F821E200294D48 /* UserModel.swift in Sources */,
 				6D33124A27F8AB8900294D48 /* LoginViewModel.swift in Sources */,
 				6DC13C7D27F776690017C4C4 /* SceneDelegate.swift in Sources */,
+				6D33125E27F95C2F00294D48 /* Services.swift in Sources */,
+				6D33126627F9F3A100294D48 /* ListMovieViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,10 +706,16 @@
 			files = (
 				6DC13CCD27F789430017C4C4 /* LoginViewController.swift in Sources */,
 				6DC13CB527F787EA0017C4C4 /* AppDelegate.swift in Sources */,
+				6D33126F27FA3E8800294D48 /* MovieTableViewCell.swift in Sources */,
+				6D33126327F95EA500294D48 /* MovieModel.swift in Sources */,
+				6D33125C27F95BDD00294D48 /* Endpoint.swift in Sources */,
+				6D33126A27FA23E400294D48 /* ListMovieTableViewController.swift in Sources */,
 				6D33125027F8B69300294D48 /* UIViewController.swift in Sources */,
 				6D33124827F821E200294D48 /* UserModel.swift in Sources */,
 				6D33124B27F8AB8900294D48 /* LoginViewModel.swift in Sources */,
 				6DC13CB627F787EA0017C4C4 /* SceneDelegate.swift in Sources */,
+				6D33125F27F95C2F00294D48 /* Services.swift in Sources */,
+				6D33126727F9F3A100294D48 /* ListMovieViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -732,7 +872,7 @@
 		};
 		6DC13CA227F7766A0017C4C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94FEA5605CBC4B3D0F7658FB /* Pods-MobilPelis.debug.xcconfig */;
+			baseConfigurationReference = 79E29562084CF5C9D7D26279 /* Pods-MobilPelisProd.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -763,7 +903,7 @@
 		};
 		6DC13CA327F7766A0017C4C4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89B80251ABFB353F903EC2EF /* Pods-MobilPelis.release.xcconfig */;
+			baseConfigurationReference = 3EAFEB15B3882777D941AB4D /* Pods-MobilPelisProd.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -794,7 +934,7 @@
 		};
 		6DC13CA527F7766A0017C4C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 911CC6FA20370EF14C228750 /* Pods-MobilPelisTests.debug.xcconfig */;
+			baseConfigurationReference = C28B1722E67972A341F7CF7B /* Pods-MobilPelisTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -815,7 +955,7 @@
 		};
 		6DC13CA627F7766A0017C4C4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74CD0303B760F11C369695F3 /* Pods-MobilPelisTests.release.xcconfig */;
+			baseConfigurationReference = BDAAD4E7B7216461D6C7593A /* Pods-MobilPelisTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -836,7 +976,7 @@
 		};
 		6DC13CA827F7766A0017C4C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0E20901C06D961FD249997D /* Pods-MobilPelis-MobilPelisUITests.debug.xcconfig */;
+			baseConfigurationReference = F61A8ED1A523E74D59AF29FC /* Pods-MobilPelisDev-MobilPelisUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -855,7 +995,7 @@
 		};
 		6DC13CA927F7766A0017C4C4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54E90668E7E63132CEB78C34 /* Pods-MobilPelis-MobilPelisUITests.release.xcconfig */;
+			baseConfigurationReference = FFD6298415D04B7167ECC4B4 /* Pods-MobilPelisDev-MobilPelisUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -874,7 +1014,7 @@
 		};
 		6DC13CBD27F787EA0017C4C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94FEA5605CBC4B3D0F7658FB /* Pods-MobilPelis.debug.xcconfig */;
+			baseConfigurationReference = C3082EC2343FC7291B2881DE /* Pods-MobilPelisDev.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -905,7 +1045,7 @@
 		};
 		6DC13CBE27F787EA0017C4C4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89B80251ABFB353F903EC2EF /* Pods-MobilPelis.release.xcconfig */;
+			baseConfigurationReference = F5159AE5F5FF29DA1F1993E6 /* Pods-MobilPelisDev.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -21,7 +21,6 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupLoginView()
-        // Do any additional setup after loading the view.
     }
     
     private func setupLoginView() {
@@ -35,7 +34,7 @@ class LoginViewController: UIViewController {
         loginVM.validateFields(username, password)
         loginVM.loginCompletationHandler { (status, message) in
             if status {
-                self.showToast(message: message, font: .systemFont(ofSize: 12.0))
+                self.segueTo(storyboard: "ListMovie", controller: "ListMovieViewController", presentation: .fullScreen, transition: .coverVertical)
             } else {
                 self.showToast(message: message, font: .systemFont(ofSize: 12.0))
             }

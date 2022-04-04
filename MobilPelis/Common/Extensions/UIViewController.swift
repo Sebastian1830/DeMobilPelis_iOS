@@ -26,4 +26,14 @@ extension UIViewController {
             toastLabel.removeFromSuperview()
         })
     }
+    
+    func segueTo(storyboard name: String, controller identifier: String, presentation: UIModalPresentationStyle, transition: UIModalTransitionStyle) {
+        let storyboard = UIStoryboard(name: name, bundle: nil)
+        let vc = storyboard.instantiateViewController(identifier: identifier)
+        
+        vc.modalPresentationStyle = presentation
+        vc.modalTransitionStyle = transition
+        
+        present(vc, animated: true, completion: nil)
+    }
 }
