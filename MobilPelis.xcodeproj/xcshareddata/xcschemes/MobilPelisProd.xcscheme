@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6DC13C7627F776690017C4C4"
-               BuildableName = "MobilPelis.app"
+               BuildableName = "MobilPelisProd.app"
                BlueprintName = "MobilPelisProd"
                ReferencedContainer = "container:MobilPelis.xcodeproj">
             </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6DC13C7627F776690017C4C4"
-            BuildableName = "MobilPelis.app"
+            BuildableName = "MobilPelisProd.app"
             BlueprintName = "MobilPelisProd"
             ReferencedContainer = "container:MobilPelis.xcodeproj">
          </BuildableReference>
@@ -82,7 +82,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6DC13C7627F776690017C4C4"
-            BuildableName = "MobilPelis.app"
+            BuildableName = "MobilPelisProd.app"
             BlueprintName = "MobilPelisProd"
             ReferencedContainer = "container:MobilPelis.xcodeproj">
          </BuildableReference>

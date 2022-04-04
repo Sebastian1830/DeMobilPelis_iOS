@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import MobilPelis
+@testable import MobilPelisDev
 
 class MobilPelisTests: XCTestCase {
 
